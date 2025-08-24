@@ -1,0 +1,19 @@
+uuid: 372b38a2-b864-4717-a3f1-2b8b92d66ec2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.my_projects
+id: node.my_projects.field_description
+field_name: field_description
+entity_type: node
+bundle: my_projects
+label: description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

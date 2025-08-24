@@ -1,0 +1,9 @@
+name: 'My projects'
+description: 'Add a new content type Project, a block with 3 last projects'
+type: module
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - node
+  - field
+  - image

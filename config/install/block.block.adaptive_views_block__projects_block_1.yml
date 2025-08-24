@@ -1,0 +1,24 @@
+uuid: 190e6bb5-5cf6-414c-bb28-1c2e3c393904
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.projects
+  module:
+    - views
+  theme:
+    - adaptive
+id: adaptive_views_block__projects_block_1
+theme: adaptive
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:projects-block_1'
+settings:
+  id: 'views_block:projects-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }
